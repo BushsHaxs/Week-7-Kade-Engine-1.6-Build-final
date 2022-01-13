@@ -10,9 +10,6 @@ import haxe.Constraints.Function;
 import MP4Handler;
 import Controls;
 import PlayState;
-#if desktop
-import Discord.DiscordClient;
-#end
 
 class VideoState extends MusicBeatState {
 	public var path:String;
